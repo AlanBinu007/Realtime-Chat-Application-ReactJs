@@ -1,0 +1,102 @@
+/* Global */
+
+* {
+  font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* Chats Page */
+
+.chats-page {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 66px;
+  background-color: #097969;
+}
+
+.logo-tab {
+  position: absolute;
+  left: 22px;
+  top: 12px;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+
+.logout-tab {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  color: white;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+/* Login Page */
+
+#login-page {
+  background-image: linear-gradient(#40a9ff, #50C878);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#login-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  position: relative;
+  top: calc(50vh - 144px);
+  left: calc(50vw - 210px);
+  padding-top: 36px;
+  padding-bottom: 66px;
+  width: 420px;
+  text-align: center;
+  background-color: white;
+  border-radius: 22px;
+}
+
+.login-button {
+  cursor: pointer;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.facebook {
+  background-color: #3b5998;
+} 
+
+.google {
+  background-color: #2AAA8A;
+  color: white;
+}
+
+#loading-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgb(255, 255, 255, 0.22);
+}
+
+#loading-icon {
+  font-size: 66px;
+  position: relative;
+  left: calc(50vw - 33px);
+  top: calc(50vh - 22px);
+}
