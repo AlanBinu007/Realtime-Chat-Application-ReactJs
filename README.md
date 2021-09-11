@@ -1,4 +1,4 @@
-# Chatify 
+# MyChat 
 ## Real-Time Chat Application
 
 ## Introduction
@@ -15,7 +15,7 @@ This is a real-time chat application build using React.js, Firebase and React ch
 Step1 - Clone this repository using:
 
 ```
-$ git clone https://github.com/vanisingh-24/Firebase-Chat-App.git
+$ git clone https://github.com/AlanBinu007/ChatEngine-Firebase-Chatting-Application.git
 ```
 
 Step2 - Install the dependencies:
