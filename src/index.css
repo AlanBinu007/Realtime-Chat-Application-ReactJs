@@ -19,7 +19,7 @@
 .nav-bar {
   width: 100%;
   height: 66px;
-  background-color: #097969;
+  background-color: #2f3635;
 }
 
 .logo-tab {
@@ -47,7 +47,8 @@
 /* Login Page */
 
 #login-page {
-  background-image: linear-gradient(#40a9ff, #50C878);
+  background-image: linear-gradient(
+    #0f2027, #2c5364);
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -56,7 +57,7 @@
 }
 
 #login-card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: relative;
   top: calc(50vh - 144px);
   left: calc(50vw - 210px);
@@ -64,7 +65,7 @@
   padding-bottom: 66px;
   width: 420px;
   text-align: center;
-  background-color: white;
+  background-color: rgb(109, 97, 97);
   border-radius: 22px;
 }
 
@@ -78,10 +79,10 @@
 
 .facebook {
   background-color: #3b5998;
-} 
+}
 
 .google {
-  background-color: #2AAA8A;
+  background-color: #2aaa8a;
   color: white;
 }
 
@@ -99,4 +100,18 @@
   position: relative;
   left: calc(50vw - 33px);
   top: calc(50vh - 22px);
+}
+.footer {
+  align-items: center;
+}
+
+.footer-text {
+  text-align: center;
+  /* color: #868e96; */
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+}
+
+.footer-div {
+  margin-top: 2rem;
 }

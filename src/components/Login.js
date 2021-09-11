@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div id="login-page">
       <div id="login-card">
-        <h2> Welcome to Chatify! </h2>
+        <h2> Welcome to MyChat! </h2>
         <div
           className="login-button google"
           onClick={() =>
@@ -26,6 +26,12 @@ const Login = () => {
         >
           <FacebookOutlined /> Sign In with Facebook
         </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h4>Design by Alan Binu 💝</h4>
       </div>
     </div>
   );
