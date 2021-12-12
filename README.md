@@ -10,7 +10,8 @@ This chat application is created using https://chatengine.io/ one of the best AP
 
 - ReactJs
 - Firebase Hosting
-- Firebase Auth
+- Google Auth
+- facebook Auth
 - Firebase Storage
 - React-Dom
 - React Redux
