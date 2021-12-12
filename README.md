@@ -1,34 +1,40 @@
-# MyChat 
-## Real-Time Chat Application
 
-## Introduction
-This is a real-time chat application build using React.js, Firebase and React chat engine.
 
-## Technologies Utilized
-* [ReactJS](https://reactjs.org/)
-* [NodeJS](https://nodejs.org/en/)
-* [ChatEngine](https://chatengine.io/)
-* [Firebase](https://reactjs.org/)
+# My Chat - Realtime Chat Application
 
-## Installation
+This chat application is created using https://chatengine.io/ one of the best API provider
 
-Step1 - Clone this repository using:
+**Project Link** - ***https://alanbinu-mychat.firebaseapp.com//***
 
+## Tech We Used
+
+- ReactJs
+- Firebase Hosting
+- Firebase Auth
+- Firebase Storage
+- React-Dom
+- React Redux
+- ChatEngine.io
+
+## Features
+
+- Login and Logout
+- Make Group, Delete Group
+- View team members
+- Send group and individual messages
+- Neat and clean UI
+
+## Steps to run in your machine
+
+Go to https://chatengine.io/  and create one app and copy your app id to env adn also create a https://console.firebase.google.com/ firebase app and copy the app config to firebase.js file
+
+#### Then Run the following commands
 ```
-$ git clone https://github.com/AlanBinu007/ChatEngine-Firebase-Chatting-Application.git
+npm i
+npm run start
 ```
 
-Step2 - Install the dependencies:
 
-```
-npm install
-```
 
-Step3 - Create a .env file
 
-Step4-
-Now you can run the app on localhost:3000 using:
-
-```
-$ npm start
-```
+#### Hope you liked this project, dont forget to ⭐ the repo.
