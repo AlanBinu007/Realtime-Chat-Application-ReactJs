@@ -10,6 +10,8 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
   const history = useHistory();
+  
+  //this is the main clas for authentication
 
   useEffect(() => {
     auth.onAuthStateChanged((user) => {
