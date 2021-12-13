@@ -3,6 +3,6 @@ import "firebase/auth";
 
 export const auth = firebase
   .initializeApp({
-    //insert your app config
+      // paste your firebase app config
   })
   .auth();
