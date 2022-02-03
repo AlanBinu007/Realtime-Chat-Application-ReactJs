@@ -27,7 +27,7 @@ This chat application is created using https://chatengine.io/ one of the best AP
 
 ## Steps to run in your machine
 
-Go to https://chatengine.io/  and create one app and copy your app id to env adn also create a https://console.firebase.google.com/ firebase app and copy the app config to firebase.js file
+Go to https://chatengine.io/  and create one app and copy your app id to env and also create a https://console.firebase.google.com/ firebase app and copy the app config details to firebase.js file
 
 #### Then Run the following commands
 ```
